@@ -22,3 +22,6 @@ Open `index.html` in browser.
 - Animations
 - Best score storage
 - Mobile swipe support
+
+## Author
+- Parkhi Jain
