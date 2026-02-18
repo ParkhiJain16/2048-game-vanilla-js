@@ -1,4 +1,4 @@
-# 2048 Game (Exiciting Logical Game)
+# 2048 Game (Vanilla JavaScript)
 
 This is a fully functional 2048 game built using pure HTML, CSS, and JavaScript.
 
