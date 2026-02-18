@@ -1,0 +1,102 @@
+
+/* BODY BACKGROUND */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #f7f4ea, #e6dccf);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* MAIN GAME CARD */
+  .game-container {
+    background: #bbada0;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    text-align: center;
+  }
+  
+  /* TITLE */
+  .title {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 32px;
+    color: #776e65;
+  }
+  
+  /* SCORE */
+  .score {
+    margin: 10px 0 20px 0;
+    color: #fff;
+  }
+  
+  /* BOARD GRID */
+  #board {
+    width: 320px;
+    height: 320px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    background: #575554;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  /* TILES */
+  .tile {
+    width: 75px;
+    height: 75px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+    transition: 0.2s ease;
+  }
+  
+  /* CONTROLS GRID */
+  #controls {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  /* CONTROL BUTTONS */
+  #controls button {
+    height: 50px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    background: #8f7a66;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  #controls button:hover {
+    background: #6f5e4c;
+  }
+  
+  /* RESTART BUTTON */
+  .restart-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #f2b179;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .restart-btn:hover {
+    background: #e59f60;
+  }
+  
